@@ -1,1 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — RetroPals</title>
+<meta name="description" content="Privacy Policy for the RetroPals wellbeing reflection app.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a class="brand" href="privacy-policy.html"><span class="brand-mark"></span>RetroPals Legal</a>
+    <a class="doc-link active" href="privacy-policy.html">Privacy Policy</a>
+    <a class="doc-link" href="terms-and-conditions.html">Terms of Use</a>
+    <a class="doc-link" href="research-program.html">Research Informed Consent</a>
+  </div>
+</nav>
+
+<main class="page">
+
+  <header class="doc-header">
+    <p class="doc-kicker">Legal Document</p>
+    <h1>Privacy Policy</h1>
+    <div class="doc-meta">
+      <span><strong>Applies to:</strong> RetroPals (iOS, Android, Web)</span>
+      <span><strong>Last updated:</strong> 20 July 2026</span>
+      <span><strong>Contact:</strong> <a href="mailto:4dlogan@gmail.com">4dlogan@gmail.com</a></span>
+    </div>
+  </header>
+
+  <p>RetroPals is a personal wellbeing reflection and goal-setting app. This Privacy Policy explains what
+  information RetroPals collects, why, how it is stored and protected, who it may be shared with, and the
+  choices and rights you have over it — including if you choose to participate in the associated research
+  program. We built RetroPals to keep your data on your own device by default, to minimise what we collect,
+  and to be transparent about every AI feature that touches your reflections.</p>
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#who-we-are">1. Who we are</a></li>
+      <li><a href="#scope">2. Scope of this policy</a></li>
+      <li><a href="#data-we-collect">3. Information we collect</a></li>
+      <li><a href="#local-first">4. Local-first storage &amp; optional cloud sync</a></li>
+      <li><a href="#ai-zdr">5. AI features &amp; Zero Data Retention</a></li>
+      <li><a href="#how-we-use">6. How we use your information</a></li>
+      <li><a href="#legal-basis">7. Legal basis for processing (GDPR)</a></li>
+      <li><a href="#sharing">8. Who we share data with</a></li>
+      <li><a href="#transfers">9. International data transfers</a></li>
+      <li><a href="#security">10. Data security</a></li>
+      <li><a href="#retention">11. Data retention</a></li>
+      <li><a href="#rights">12. Your rights under GDPR</a></li>
+      <li><a href="#research">13. The research program</a></li>
+      <li><a href="#children">14. Children's privacy</a></li>
+      <li><a href="#changes">15. Changes to this policy</a></li>
+      <li><a href="#contact">16. Contact us</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="who-we-are">1. Who we are</h2>
+  <p>RetroPals is developed and operated by an independent developer ("we", "us", "the Developer"),
+  contactable at <a href="mailto:4dlogan@gmail.com">4dlogan@gmail.com</a>. RetroPals is also used as part of
+  a Master's research project in Usability Engineering at Hochschule Rhein-Waal (Germany); where the app is
+  used for that research, additional information is provided in our
+  <a href="research-program.html">Research Informed Consent</a> document. For the purposes of data protection
+  law, we act as the data controller for the personal data described in this policy.</p>
+
+  <h2 id="scope">2. Scope of this policy</h2>
+  <p>This policy covers the RetroPals mobile apps (iOS, Android) and the RetroPals web app. It applies to
+  everyone who uses RetroPals, including guest (anonymous) users. It does not cover third-party websites or
+  services you may reach through links inside the app (for example, app store pages or payment provider
+  checkout pages), which have their own privacy policies.</p>
+
+  <h2 id="data-we-collect">3. Information we collect</h2>
+  <p>What we collect depends on how you use RetroPals. Health and location data are always optional. The
+  table below summarises each category.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Category</th><th>Examples</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Account data</td>
+          <td>Email/identifier from Google or Apple Sign-In, or an anonymous guest ID</td>
+          <td>Managed by Firebase Authentication. Guest accounts can be upgraded to a full account later.</td>
+        </tr>
+        <tr>
+          <td>Profile data</td>
+          <td>Nickname, occupation, industry, generational cohort, personal values, beliefs, interests</td>
+          <td>Entered voluntarily by you; used to personalise your experience.</td>
+        </tr>
+        <tr>
+          <td>Reflection &amp; goals data</td>
+          <td>Wellbeing ratings, emotion ratings, motivation/stress ratings, free-text notes, goals, challenges,
+          highlights and barriers</td>
+          <td>The core content you create when using the app.</td>
+        </tr>
+        <tr>
+          <td>Health &amp; activity data (optional)</td>
+          <td>Step count, exercise minutes, sleep duration, meditation minutes</td>
+          <td>Only collected if you enable it, either entered manually or synced automatically from Apple Health
+          or Android Health Connect. Off by default for automatic sync.</td>
+        </tr>
+        <tr>
+          <td>Location &amp; weather data (optional)</td>
+          <td>City/region you set, approximate coordinates, weather conditions</td>
+          <td>Used to show local weather insights and can optionally be attached to a reflection.</td>
+        </tr>
+        <tr>
+          <td>AI chat &amp; analysis content</td>
+          <td>Messages you send to AI companions, generated replies, AI-generated reflection analyses</td>
+          <td>See <a href="#ai-zdr">Section 5</a> for how this is processed.</td>
+        </tr>
+        <tr>
+          <td>BYO AI API key</td>
+          <td>Your personal OpenRouter API key, if you subscribe to the BYO AI tier</td>
+          <td>Encrypted (AES-256-GCM) and stored server-side; never readable by us or returned to any device in
+          plain text.</td>
+        </tr>
+        <tr>
+          <td>Purchase &amp; subscription data</td>
+          <td>Subscription tier, credit balance, renewal date, transaction status</td>
+          <td>Payment card details are never seen or stored by us — see <a href="#sharing">Section 8</a>.</td>
+        </tr>
+        <tr>
+          <td>Research participation data</td>
+          <td>Research group assignment, opt-in status, exported reflection data (only for enrolled
+          participants)</td>
+          <td>Only collected if you opt in — see <a href="#research">Section 13</a>.</td>
+        </tr>
+        <tr>
+          <td>Technical &amp; device data</td>
+          <td>App settings, theme preference, device type, crash/error logs</td>
+          <td>Used to run and improve the app.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="local-first">4. Local-first storage &amp; optional cloud sync</h2>
+  <p>RetroPals is built <strong>local-first</strong>. By default, all of your data — reflections, goals,
+  agents, profile, conversations — is stored securely on your own device (using an on-device database on
+  mobile/desktop, or protected browser storage on web) and the app is fully usable offline. Nothing is sent to
+  our servers for storage unless you explicitly turn on <strong>Back up &amp; sync</strong> in
+  Settings → Account.</p>
+  <div class="callout note">
+    <span class="callout-title">Why this matters</span>
+    <p>Keeping data on-device by default minimises the amount of personal data we hold, gives you direct
+    control over your information, and reduces the risk associated with any single data breach. You can use
+    the core features of RetroPals without ever syncing data to the cloud.</p>
+  </div>
+  <p>If you opt in to sync, your data is mirrored to a secure, access-controlled cloud database
+  (Firestore) so it can follow you across devices and be recovered if you lose your device. Some
+  device-specific settings (theme, reminder preferences, local weather cache) always stay on-device only,
+  even with sync enabled, because they are not meaningful to sync.</p>
+
+  <h2 id="ai-zdr">5. AI features &amp; Zero Data Retention</h2>
+  <p>RetroPals includes optional AI features: AI companion chat and AI-generated analysis of your weekly
+  reflections. These are designed to offer general wellbeing support and encouragement — they are
+  <strong>not clinical, medical, diagnostic, or therapeutic services</strong>, and they are not a substitute
+  for professional care. See our <a href="terms-and-conditions.html#ai-disclaimer">Terms of Use</a> for the
+  full disclaimer.</p>
+  <p>We select flagship AI models chosen for strong safety guardrails, and we configure our AI integrations to
+  route requests through providers operating under a <strong>Zero Data Retention (ZDR)</strong> policy
+  wherever available.</p>
+  <div class="callout info">
+    <span class="callout-title">What Zero Data Retention means</span>
+    <p>Under a ZDR arrangement, the content you send to an AI model (your prompts and the model's generated
+    responses) is processed only in temporary memory to produce your response, and is not stored, logged, or
+    used to train the model provider's future models. Your reflections and chat messages are used to generate
+    your response and are then discarded by the model provider.</p>
+  </div>
+  <p>If you enable <strong>Bring Your Own AI (BYO AI)</strong> and connect your own OpenRouter API key, your
+  AI requests are made using your own account and are subject to OpenRouter's and your chosen model
+  provider's own data handling terms; we encourage you to review those directly, as we cannot guarantee the
+  data practices of models or providers you select yourself outside our default configuration.</p>
+  <p>RetroPals itself does not use your reflections or chat content to train any AI model.</p>
+
+  <h2 id="how-we-use">6. How we use your information</h2>
+  <ul>
+    <li>To provide the core app experience: reflections, insights, goals, and AI companion chat.</li>
+    <li>To generate AI analysis of your reflections and respond to your chat messages.</li>
+    <li>To personalise content, such as weather insights and challenge suggestions.</li>
+    <li>To process purchases, manage your credit balance, and administer subscriptions.</li>
+    <li>To sync your data across your devices, if you opt in.</li>
+    <li>To operate the optional research program, for participants who opt in.</li>
+    <li>To maintain the security, integrity, and reliability of the app.</li>
+    <li>To comply with our legal obligations.</li>
+  </ul>
+  <p>We do not sell your personal data, and we do not use your reflection or chat content for advertising.</p>
+
+  <h2 id="legal-basis">7. Legal basis for processing (GDPR)</h2>
+  <p>Where the GDPR applies, we rely on the following legal bases:</p>
+  <ul>
+    <li><strong>Consent</strong> — for optional features such as cloud sync, automatic health data collection,
+    location/weather, and research participation. You may withdraw consent at any time via in-app settings.</li>
+    <li><strong>Performance of a contract</strong> — to provide the core app functionality you request,
+    including account creation and paid subscriptions/credits.</li>
+    <li><strong>Legitimate interests</strong> — to keep the app secure, diagnose technical problems, and
+    improve the product, balanced against your rights and interests.</li>
+    <li><strong>Legal obligation</strong> — where we must retain certain records (e.g. transaction records)
+    to comply with tax or consumer-protection law.</li>
+  </ul>
+
+  <h2 id="sharing">8. Who we share data with</h2>
+  <p>We do not sell personal data. We share limited data with the service providers ("processors") strictly
+  necessary to operate RetroPals, under contractual data protection terms:</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Provider</th><th>Purpose</th><th>What's shared</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google Firebase / Google Cloud (EU region)</td>
+          <td>Authentication, optional cloud sync, encrypted key storage (Secret Manager), server-side AI
+          routing</td>
+          <td>Account identifiers, and any data you opt to sync</td>
+        </tr>
+        <tr>
+          <td>AI model providers (via OpenRouter, under ZDR where available)</td>
+          <td>Generating AI chat replies and reflection analysis</td>
+          <td>The specific message/reflection content needed to generate that response, processed and
+          discarded per Section 5</td>
+        </tr>
+        <tr>
+          <td>WeatherAPI.com / Open-Meteo</td>
+          <td>Weather forecasts and location lookups</td>
+          <td>Approximate location/coordinates you set</td>
+        </tr>
+        <tr>
+          <td>RevenueCat</td>
+          <td>Managing iOS/Android subscriptions and in-app purchases</td>
+          <td>Purchase and subscription status; no payment card details</td>
+        </tr>
+        <tr>
+          <td>Apple App Store / Google Play</td>
+          <td>Processing iOS/Android in-app purchases</td>
+          <td>Handled entirely by Apple/Google under their own privacy terms</td>
+        </tr>
+        <tr>
+          <td>Stripe</td>
+          <td>Processing web purchases and subscriptions</td>
+          <td>Handled entirely by Stripe under its own privacy/PCI-compliant terms; we never see full card
+          details</td>
+        </tr>
+        <tr>
+          <td>Google Sheets (research export, opted-in participants only)</td>
+          <td>Recording research data for the RetroPals research program</td>
+          <td>Completed reflection data for enrolled research participants only — see Section 13</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>We may also disclose information if required to by law, or to protect the rights, safety, and security of
+  RetroPals, its users, or the public.</p>
+
+  <h2 id="transfers">9. International data transfers</h2>
+  <p>Our primary cloud database is hosted in an EU region, so data you opt to sync stays within the EU/EEA.
+  Some processors we use (including some AI model providers) may process data outside the EU/EEA. Where that
+  happens, we rely on appropriate safeguards such as standard contractual clauses, and — for AI processing in
+  particular — Zero Data Retention arrangements that mean your content is not retained by the provider after
+  your response is generated.</p>
+
+  <h2 id="security">10. Data security</h2>
+  <p>We apply technical and organisational measures appropriate to the sensitivity of the data involved,
+  including:</p>
+  <ul>
+    <li>Local-first storage that keeps most data off our servers entirely by default.</li>
+    <li>Encryption of BYO AI API keys (AES-256-GCM) using keys managed in a dedicated secrets manager, never
+    exposed to any client device.</li>
+    <li>Access-controlled cloud database rules that restrict every synced user's data to that user only.</li>
+    <li>Payment processing delegated entirely to PCI-compliant providers (Apple, Google, Stripe, RevenueCat) —
+    we never handle raw card details.</li>
+  </ul>
+  <p>No system is perfectly secure, and we cannot guarantee absolute security, but we work to protect your
+  information using industry-standard practices proportionate to a personal wellbeing app.</p>
+
+  <h2 id="retention">11. Data retention</h2>
+  <p>Data stored only on your device remains there until you delete it or uninstall the app. Synced data is
+  retained for as long as your account is active, or until you delete it via Settings → Manage Data, delete
+  specific entries, or request account deletion by contacting us. Research data is retained as described in
+  the <a href="research-program.html">Research Informed Consent</a> document. We retain limited transaction
+  records for as long as required by applicable tax/accounting law.</p>
+
+  <h2 id="rights">12. Your rights under GDPR</h2>
+  <p>If the GDPR applies to you, you have the right to:</p>
+  <ul>
+    <li><strong>Access</strong> the personal data we hold about you.</li>
+    <li><strong>Rectify</strong> inaccurate or incomplete data.</li>
+    <li><strong>Erase</strong> your data ("right to be forgotten") — you can do this yourself in-app via
+    Settings → Manage Data, or by contacting us.</li>
+    <li><strong>Restrict or object</strong> to certain processing.</li>
+    <li><strong>Data portability</strong> — receive your data in a portable format.</li>
+    <li><strong>Withdraw consent</strong> at any time for anything based on consent (sync, health data,
+    location, research participation), without affecting processing carried out before withdrawal.</li>
+    <li><strong>Lodge a complaint</strong> with your local data protection supervisory authority.</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at <a href="mailto:4dlogan@gmail.com">4dlogan@gmail.com</a>.
+  We will respond within the timeframes required by applicable law.</p>
+
+  <h2 id="research">13. The research program</h2>
+  <p>RetroPals is also used to support academic research, including a Master's thesis in Usability
+  Engineering at Hochschule Rhein-Waal, Germany, and potential future studies. Participation is entirely
+  optional, is decided during onboarding (and can be changed anytime via Settings → Research Program), and is
+  governed by a dedicated document that explains exactly what participation involves, what data is exported,
+  and how it is used: please read our <a href="research-program.html">Research Informed Consent</a> for full
+  details before opting in.</p>
+
+  <h2 id="children">14. Children's privacy</h2>
+  <p>RetroPals is intended for users aged <strong>16 and over</strong>. We do not knowingly collect personal
+  data from anyone under 16. If you believe a child has provided us with personal data, please contact us and
+  we will take steps to delete it.</p>
+
+  <h2 id="changes">15. Changes to this policy</h2>
+  <p>We may update this Privacy Policy from time to time, for example as features change or to reflect legal
+  requirements. We will update the "Last updated" date above when we do. Material changes will be highlighted
+  in-app where practical.</p>
+
+  <h2 id="contact">16. Contact us</h2>
+  <p>Questions, requests, or concerns about this policy or your data can be sent to
+  <a href="mailto:4dlogan@gmail.com">4dlogan@gmail.com</a>.</p>
+
+  <a class="back-to-top" href="#top">↑ Back to top</a>
+
+  <footer class="doc-footer">
+    <span>RetroPals — Privacy Policy</span>
+    <span><a href="terms-and-conditions.html">Terms of Use</a> · <a href="research-program.html">Research Informed Consent</a></span>
+  </footer>
+
+</main>
+</body>
+</html>
